@@ -12,6 +12,7 @@ body{
 // Debugging
 // *{
 //     border: 1px solid red;
+//     user-select: none;
 // }
 
 .navbar{
@@ -147,10 +148,22 @@ align-items: center;
 .navbar-toggler::focus{
 outline: 0;
 }
+.header6{
+    height: 75vh;
+.bar{
+    background-color: beige;
+    height: 2px;
+}
+}
    
 }
 
 @media only screen and (min-width: 734px) and (min-width: 734px){
+    .special{
+        width: 40vw;
+        height: 30vh;
+        text-align: left;
+    }
     .strap{
         display: inline;
         transform:translateX(-35rem)scale(1.2);
@@ -197,6 +210,13 @@ outline: 0;
         
     }
 }
+.header6{
+    height: 55vh;
+.bar{
+    background-color: beige;
+    height: 2px;
+}
+}
     .header3{
         
         .h1{
@@ -210,4 +230,8 @@ outline: 0;
         }
     }
 
+}
+
+.power{
+    font-size: 5rem;
 }

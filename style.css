@@ -145,8 +145,20 @@ a {
   .navbar-toggler::focus {
     outline: 0;
   }
+  .header6 {
+    height: 75vh;
+  }
+  .header6 .bar {
+    background-color: beige;
+    height: 2px;
+  }
 }
 @media only screen and (min-width: 734px) and (min-width: 734px) {
+  .special {
+    width: 40vw;
+    height: 30vh;
+    text-align: left;
+  }
   .strap {
     display: inline;
     transform: translateX(-35rem) scale(1.2);
@@ -188,6 +200,13 @@ a {
     -o-object-position: center;
        object-position: center;
   }
+  .header6 {
+    height: 55vh;
+  }
+  .header6 .bar {
+    background-color: beige;
+    height: 2px;
+  }
   .header3 .h1 {
     font-size: 4.7rem;
     font-weight: bolder;
@@ -196,4 +215,7 @@ a {
     font-size: 1.5rem;
     width: 60%;
   }
+}
+.power {
+  font-size: 5rem;
 }/*# sourceMappingURL=style.css.map */
