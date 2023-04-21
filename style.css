@@ -12,8 +12,22 @@ body {
   padding: 0;
 }
 
+.lists {
+  border-bottom: rgb(210, 201, 201) 1px solid;
+  padding-top: 1rem;
+}
+
+.show-more {
+  cursor: pointer;
+}
+
 .navbar {
   background-color: #5c5c5d;
+}
+
+.navbar-toggler {
+  padding: 0;
+  margin-left: 1rem;
 }
 
 .buybtn {
@@ -33,18 +47,9 @@ body {
   font-size: 0.8rem;
   padding: 0.5rem 1rem;
   text-align: center;
-  animation: changebg 1s linear;
+  animation: changebg 3s linear;
 }
 
-@keyframes changebg {
-  0% {
-    background-color: #0d6efd;
-    color: white;
-  }
-  100% {
-    background-color: #f5f5f7;
-  }
-}
 a {
   text-decoration: none;
 }
@@ -63,8 +68,8 @@ a {
   align-items: center;
 }
 
-.ultra {
-  color: #f56900;
+.orange {
+  color: #f49750;
   letter-spacing: 0.1rem;
 }
 
@@ -103,21 +108,128 @@ a {
   font-size: 3rem;
 }
 
+.rotateplus {
+  transition: all 0.5s ease;
+  transform: rotate(45deg);
+}
+
 .lists {
   align-items: center;
+}
+.lists ul {
+  list-style: none;
+}
+.lists li {
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.lists li a {
+  color: inherit;
+}
+.lists li a:hover {
+  text-decoration: underline;
 }
 
 .header5 {
   background-color: #121212;
 }
 
-@media only screen and (max-width: 734px) and (max-width: 734px) {
+.power {
+  font-size: 5rem;
+}
+
+.inView {
+  opacity: 1;
+  transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+
+.scrollbtn {
+  z-index: 999;
+}
+
+.cards-item {
+  box-shadow: black 2px 2px 2px;
+}
+
+.scrolltotop {
+  cursor: pointer;
+  text-align: right;
+}
+.scrolltotop i {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 40%;
+  margin-bottom: 2rem;
+  color: white;
+}
+.scrolltotop i:hover {
+  animation: arrow 2s ease;
+}
+
+@keyframes arrow {
+  25% {
+    transform: translateY(-2rem);
+  }
+  50% {
+    transform: translateY(0rem);
+  }
+  75% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+@keyframes changebg {
+  0% {
+    background-color: #0d6efd;
+    color: white;
+  }
+  100% {
+    background-color: #f5f5f7;
+  }
+}
+@media only screen and (min-width: 536px) and (max-width: 1400px) {
   .strap {
     display: inline;
-    transform: translateX(-15rem) scale(1.2);
-    height: 20rem;
+    transform: translateX(-50%) scale(1.2);
+    height: 40vh;
     width: 130vw;
+    margin-top: 5rem;
+  }
+  .header1 {
     overflow: hidden;
+    display: block;
+  }
+  .header2 {
+    overflow: hidden;
+  }
+  .header4 {
+    overflow: hidden;
+  }
+  .header4 .sideview {
+    max-height: 60vh;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    -o-object-fit: fill;
+       object-fit: fill;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .header5 {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 536px) {
+  .strap {
+    display: inline;
+    transform: translateX(-20%) scale(1.2);
+    height: 15rem;
+    width: 100vw;
   }
   .header1 {
     overflow: hidden;
@@ -153,7 +265,7 @@ a {
     height: 2px;
   }
 }
-@media only screen and (min-width: 734px) and (min-width: 734px) {
+@media only screen and (min-width: 1400px) {
   .special {
     width: 40vw;
     height: 30vh;
@@ -161,7 +273,7 @@ a {
   }
   .strap {
     display: inline;
-    transform: translateX(-35rem) scale(1.2);
+    transform: translateX(-30%);
     height: 80vh;
     width: 80vw;
     margin-top: 3rem;
@@ -170,10 +282,10 @@ a {
   .header1 {
     overflow: hidden;
     display: block;
+    width: 50%;
   }
   .header2 {
     overflow: hidden;
-    width: 100vw;
   }
   .header2 .h1 {
     font-size: 6rem;
@@ -207,15 +319,4 @@ a {
     background-color: beige;
     height: 2px;
   }
-  .header3 .h1 {
-    font-size: 4.7rem;
-    font-weight: bolder;
-  }
-  .header3 .h5 {
-    font-size: 1.5rem;
-    width: 60%;
-  }
-}
-.power {
-  font-size: 5rem;
 }/*# sourceMappingURL=style.css.map */

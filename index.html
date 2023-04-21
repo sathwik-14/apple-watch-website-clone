@@ -7,107 +7,128 @@
     <title>Apple Watch Ultra</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
     <link rel="shortcut icon" href="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_ultra__c9h5j8jcjksy_small_2x.jpg" type="image/x-icon">
 </head>
-<body>
+<body >
+
+  <!-- NAVIGATION SECTION -->
+
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
-          <a class="navbar-brand" href="#"><i class="fa-brands fa-apple fa-md"></i></a>
+          <a class="navbar-brand" href="https://www.apple.com/in/"><i class="fa-brands fa-apple fa-md"></i></a>
           <div class="icons me-2 ">
-             <i class="fa fa-search fa-md me-2 d-lg-none" aria-hidden="true"></i>
-            <i class="fa fa-cart-shopping fa-md me-2 d-lg-none"></i>
+             <!-- <i class="fa fa-search fa-md me-2 d-lg-none" aria-hidden="true"></i>
+            <i class="fa fa-cart-shopping fa-md me-2 d-lg-none"></i> -->
+            
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <i class="fa-solid fa-bars text-white fa-lg" id="openbtn"></i>
+              <i class="fa-solid fa-x d-none text-white f-lg" id="closebtn"></i>
             </button>
         </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto  mb-lg-0">
+            <ul class="navbar-nav ms-auto  mb-lg-0">
               <li class="nav-item ms-4">
-                <a class="nav-link  " aria-current="page" href="#">Store</a>
-              </li>
-              <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Mac</a>
+                <a class="nav-link  "  href="https://www.apple.com/in/store">Store</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Ipad</a>
+                <a class="nav-link " href="https://www.apple.com/in/mac/">Mac</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Iphone</a>
+                <a class="nav-link " href="https://www.apple.com/in/ipad/">Ipad</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Watch</a>
+                <a class="nav-link " href="https://www.apple.com/in/iphone/">Iphone</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">AirPods</a>
+                <a class="nav-link " href="https://www.apple.com/in/watch/">Watch</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">TV & Home</a>
+                <a class="nav-link " href="https://www.apple.com/in/airpods/">AirPods</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Entertainment</a>
+                <a class="nav-link " href="https://www.apple.com/in/tv-home/">TV & Home</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Accessories</a>
+                <a class="nav-link " href="https://www.apple.com/in/services/">Entertainment</a>
               </li>
               <li class="nav-item ms-4">
-                <a class="nav-link " href="#">Support</a>
+                <a class="nav-link " href="https://www.apple.com/in/shop/accessories/all">Accessories</a>
               </li>
-              <li class="nav-item ms-4"><a href="" class="nav-link">  <i class="fa fa-search fa-md ms-2 d-none d-lg-inline" aria-hidden="true"></i></a>
+              <li class="nav-item ms-4">
+                <a class="nav-link " href="https://support.apple.com/en-in">Support</a>
               </li>
-                <li class="nav-item ms-4"><a href="" class="nav-link"><i class="fa fa-cart-shopping fa-md ms-2 d-none d-lg-inline"></i></a>
-                </li>
+            
             </ul>
           </div>
         </div>
       </nav>
 
-      <div class="sticky-top text-light container-fluid  d-flex header ">
+      <div class="sticky-top text-light d-flex header ">
         <div class="container d-flex">
-        <p class="h5">Apple Watch Ultra</p>
+        <a href="https://www.apple.com/in/apple-watch-ultra/" class="h5 text-light">Apple Watch Ultra</a>
         <div class="ms-auto">
-          <span class=" sticky-link pe-4  text-muted d-none d-lg-inline display-7">Overview</span><span class="sticky-link d-none d-lg-inline">Why Apple Watch</span>
-          <i class="fa fa-chevron-down d-lg-none"></i>&nbsp;
-          <div class="btn btn-primary buybtn btn-sm fs-7">Buy</div>
+          <span class=" sticky-link pe-4  text-muted d-none d-lg-inline display-7">
+            Overview
+          </span>
+            <a href="https://www.apple.com/in/apple-watch-ultra/why-apple-watch/" class="sticky-link d-none d-lg-inline text-white">Why Apple Watch</a>
+            
+          <i class="fa fa-chevron-down d-none"></i>
+         
+          &nbsp;
+          <a href="https://www.apple.com/in/shop/goto/buy_watch/apple_watch_ultra" class="btn btn-primary buybtn btn-sm fs-7">Buy</a>
         </div>
         </div>
       </div>
 
       <p class="alertmsg">
-        Get up to ₹3000.00 instant savings on selected Apple Watch models with eligible HDFC Bank cards.<sup>‡</sup> <a href="#">Shop Apple Watch ></a>
+        Get up to ₹3000.00 instant savings on selected Apple Watch models with eligible HDFC Bank cards.<sup>‡</sup> <a href="https://www.apple.com/in/shop/goto/buy_watch">Shop Apple Watch ></a>
       </p>
 
 
       <div class="hero container mt-4 header1">
             <h1 class=" text-center "><i class="fa-brands fa-apple fa-lg "></i>&nbsp;WATCH</h1>
-            <h6 class="text-center ultra ms-3">ULTRA</h6>
-            <h1 class="text-center  ultra bigfont">Adventure awaits.</h1>
-            <div class=" hero-content container h3 text-center" >Meet the most rugged and capable Apple Watch ever. With a robust titanium case, precision dual-frequency GPS, up to 36 hours of battery life,<sup>1 </sup>the freedom of cellular2 and three specialised straps made for athletes and adventurers of all kinds.</div>
-            <div class=" hero-content-link  mt-4 d-flex flex-column d-lg-flex flex-lg-row" ><a class="h5">Watch the film&nbsp;<i class="fa fa-circle-play"></i></a><a class="h5">Watch the event&nbsp;<i class="fa fa-chevron-right"></i></a></div>
+            <h6 class="text-center orange ms-3">ULTRA</h6>
+            <h1 class="text-center  orange bigfont">Adventure awaits.</h1>
+            <div class=" hero-content container h3 text-center w-md-50 py-3" >Meet the most rugged and capable Apple Watch ever. With a robust titanium case, precision dual-frequency GPS, up to 36 hours of battery life,<sup>1 </sup>the freedom of cellular<sup>2</sup> and three specialised straps made for athletes and adventurers of all kinds.</div>
+            
+            <div class=" hero-content-link  mt-4 d-flex flex-column flex-xxl-row px-xxl-5 container-xxl" >
+              <a class="h5 btn btn-lg btn-primary text-white" onclick="scrollWin()">
+                Know More&nbsp;&nbsp;
+                <i class="fa fa-chevron-down "></i>
+              </a>
+              <a class="h5 btn btn-lg btn-success text-white" href="https://www.apple.com/in/shop/goto/buy_watch/apple_watch_ultra">Buy Now&nbsp;&nbsp;<i class="fa fa-bag-shopping"></i></a></div>
             <div class="text-center mt-4 ">
-            <img src="https://www.apple.com/in/apple-watch-ultra/images/overview/hero/hero_watch_ultra__cbu8ymf4a8xe_large.jpg" alt="" class="img-fluid watch mt-3" >
+            <img src="https://www.apple.com/in/apple-watch-ultra/images/overview/hero/hero_watch_ultra__cbu8ymf4a8xe_large.jpg" alt="" class=" img-fluid  watch mt-3" >
           </div>
       </div>
 
-          <div class=" bg-light  header2  pt-5">
-              <div class="spans  ">
+          <div class=" bg-light  header2  pt-5 ">
+              <div class="spans tile py-5">
               <span class="h4 pt-5">Design</span><br>
               <span class="h1">Pioneering</span><br>
               <span class="h1">engineering.</span>
             </div>
-            <img src="https://www.apple.com/v/apple-watch-ultra/e/images/overview/design/light_pass_endframe__blvhlxdyh57m_large.jpg" alt="" class=" mt-5 strap pt-4 pt-lg-5 mt-lg-5"  >
-
+            <img src="https://www.apple.com/v/apple-watch-ultra/e/images/overview/design/light_pass_endframe__blvhlxdyh57m_large.jpg" alt="" class=" img-fluid mt-5 strap"  >
           </div>
 
-            <div class="container mt-4 p-5 ps-lg-5 header3 row">
-              <div class=" p-lg-5">
-              <span class="h1 pt-5">Looks tough.</span><br><span class="h1">Because it is.</span>
+            <div class="mt-4 p-4 header3 container tile ">
+              
+              <span class="h1 pt-5">Looks tough.</span>
+              <br>
+              <span class="h1">Because it is.</span>
               <p class="text-muted h5 mt-4 ">
                 To build the ultimate sports watch, we crafted every element with painstaking attention to detail for unparalleled performance. Titanium strikes the perfect balance between weight, ruggedness and corrosion resistance. The case rises up to surround the flat sapphire crystal and protect it from edge impacts. The Digital Crown is larger and the side button is raised from the case, making them easier to use while you’re wearing gloves.
               </p>
-            </div>
+            
             </div>
 
-            <div class="container mt-4 header4  text-left text-lg-center ">
+            <div class="container mt-4 header4   text-center tile">
               <p class="h3  p-3  ultra">49 mm titanium case</p>
               <p class="h3  p-3  ultra">Water resistance 100 m**</p>
               <p class="h3  p-3  ultra">Tested to MIL-STD 810H<sup>3</sup></p>
@@ -117,9 +138,9 @@
               </div>
             </div>
 
-            <div class=" text-light p-5 pt-lg-5  header5 text-sm-center ">
+            <div class=" text-light p-5 pt-lg-5  header5 text-sm-center tile">
               <div class="container pt-lg-5">
-              <p class="h6 lh-lg p-lg-5  special  ms-lg-auto pt-lg-5">
+              <p class="h6 lh-lg p-lg-5    ms-lg-auto pt-lg-5">
                 <span class="text-danger ">The biggest and brightest Apple Watch display.</span> <span class="text-muted"> The Always‑On Retina display is 2,000 nits at its peak and twice as bright as any other Apple Watch. The bigger display provides more room for workout metrics and detail‑packed watch faces. The Wayfinder face lets you rotate the Digital Crown to activate Night Mode for better viewing in low-light situations.</span>
               </p>
             </div>
@@ -128,83 +149,97 @@
               </div>
             </div>
 
-            <div class=" text-secondary container pt-5  header6 my-auto  text-left">
-              <div class="d-none d-lg-flex flex-lg-row flex-column mx-auto   align-items-center">
-                <i class="fa-solid fa-bolt  ultra power pt-3"></i>
-                <p class="display-7 p-3 ms-auto h6"><span class="h5 text-dark">Battery life for days.</span> When you’re on the second day of a backpacking trip, the final leg of a triathlon or diving along a coral reef, the last thing you want to think about is running out of battery. With longer battery life than ever, you can take on almost anything and have energy to spare.<sup>1</sup></p>
-              </div>
-              <div class="d-flex d-lg-none d-md-none  flex-column  ">
-                <i class="fa-solid fa-bolt  ultra power pt-3"></i>
-                <p class="display-7 p-3 ms-auto h6"><span class="h5 text-dark">Battery life for days.</span> When you’re on the second day of a backpacking trip, the final leg of a triathlon or diving along a coral reef, the last thing you want to think about is running out of battery. With longer battery life than ever, you can take on almost anything and have energy to spare.<sup>1</sup></p>
-              </div>
-              <div class="d-lg-flex d-none w-50 flex-row justify-content-around text-left container pt-4">
-                <div class="d-flex flex-column">
-                <p class="text-left"><small>Up to</small><br>
-                  <span class="ultra h1"> 36 hours</span>
-                   <br>
-                  <small> of normal use</small><sup>1</sup></p>
-        
-              </div>
-              <div class="d-flex flex-column bar"></div>
-              <div class="d-flex flex-column">
-                <p class="text-left "><small>Up to</small><br>
-                  <span class="ultra h1"> 60 hours</span>
-                   <br>
-                  <small> on low power settings</small><sup>6</sup></p>
-              </div>
-              </div>
-              <div class="d-sm-flex d-lg-none flex-row justify-content-around text-left container pt-4">
-                <div class="d-flex flex-column">
-                <p class="text-left"><small>Up to</small><br>
-                  <span class="ultra h1"> 36 hours</span>
-                   <br>
-                  <small> of normal use</small><sup>1</sup></p>
-              </div>
-              <div class="d-flex flex-column bar"></div>
-              <div class="d-flex flex-column">
-                <p class="text-left "><small>Up to</small><br>
-                  <span class="ultra h1"> 60 hours</span>
-                   <br>
-                  <small> on low power settings</small><sup>6</sup></p>
-              </div>
-              </div>
-            </div>
-              
-            </div>
-           
+            <div class=" text-secondary container pt-5  header6  tile">
 
-          <div class=" mt-5 ">
-            <p class="h1 text-center">Which Apple Watch is right for you?</p>
-            <div class="d-flex flex-lg-row flex-column mt-5 text-center">
-              <div class="text-center container p-2">
-                <img src="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_s8__bb7m9vdbsr3m_small_2x.jpg" alt="" class="img-fluid">
+          <div class="container p-5">
+              <div class="d-none d-lg-flex d-md-flex flex-md-row flex-lg-row flex-column mx-auto ">
+                <i class="fa-solid fa-bolt  orange power pt-3"></i>
+                <p class="display-7 p-3 h6"><span class="h5 text-dark">Battery life for days.</span> When you’re on the second day of a backpacking trip, the final leg of a triathlon or diving along a coral reef, the last thing you want to think about is running out of battery. With longer battery life than ever, you can take on almost anything and have energy to spare.<sup>1</sup></p>
+              </div>
+              <div class="d-lg-flex d-md-flex d-none  flex-row text-left  pt-4 tile">
+                <div class="d-flex flex-column">
+                <p class="text-left"><small>Up to</small><br>
+                  <span class="orange h1"> 36 hours</span>
+                   <br>
+                  <small> of normal use</small><sup>1</sup></p>
+              </div>
+              <div class=" bar "></div>
+
+              <div class="d-flex flex-column ms-5">
+                <p class="text-left "><small>Up to</small><br>
+                  <span class="orange h1"> 60 hours</span>
+                   <br>
+                  <small> on low power settings</small><sup>6</sup></p>
+              </div>
+              </div>
+            </div>
+
+            <div class="container ">
+              <div class="d-flex d-lg-none d-md-none  flex-column  ">
+                <i class="fa-solid fa-bolt  orange power pt-3 text-center "></i>
+                <p class="display-7 p-3 ms-auto h6"><span class="h5 text-dark">Battery life for days.</span> When you’re on the second day of a backpacking trip, the final leg of a triathlon or diving along a coral reef, the last thing you want to think about is running out of battery. With longer battery life than ever, you can take on almost anything and have energy to spare.<sup>1</sup></p>
+              </div>
+              <div class="d-sm-flex d-lg-none d-md-none flex-row justify-content-around text-left container pt-4 tile">
+                <div class="d-flex flex-column">
+                <p class="text-center"><small>Up to</small><br>
+                  <span class="orange h1"> 36 hours</span>
+                   <br>
+                  <small> of normal use</small><sup>1</sup></p>
+              </div>
+              <div class="d-flex flex-column bar my-3"></div>
+              <div class="d-flex flex-column">
+                <p class="text-center"><small>Up to</small><br>
+                  <span class="orange h1"> 60 hours</span>
+                   <br>
+                  <small> on low power settings</small><sup>6</sup></p>
+              </div>
+              </div>
+            </div>
+
+            </div>
+        
+
+          <div class="mt-5 tile container">
+            <p class="h1 text-center pt-5">Which Apple Watch is right for you?</p>
+            <div class="d-flex flex-lg-row flex-column text-center">
+              <div class=" m-auto  text-center container ">
+                <div class="">
+                <img src="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_s8__bb7m9vdbsr3m_small_2x.jpg" alt="" class="img-fluid p-4">
+  </div>
+  <div class="card-body">
                 <p class="h5">Apple Watch Series 8</p>
                 <p class="display-7">From ₹45900.00*</p>
-                <div class="btn btn-primary buybtn">Buy</div><br>
-                <a href="#">Learn more ></a>
-                <hr>
+                <a href="https://www.apple.com/in/shop/goto/buy_watch/apple_watch_series_8" class="btn btn-primary buybtn mb-3">Buy</a><br>
+                <a href="https://www.apple.com/in/apple-watch-series-8/">Learn more ></a>
+               </div>
               </div>
-              <div class="text-center container p-2">
-                <img src="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_ultra__c9h5j8jcjksy_small_2x.jpg" class="img-fluid" alt="">
+              <div class=" m-auto  text-center container ">
+                <div class="">
+                <img src="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_ultra__c9h5j8jcjksy_small_2x.jpg" class="img-fluid p-4" alt="">
+             </div>
+             <div class="card-body">   
                 <p class="h5">Apple Watch Ultra</p>
                 <p class="display-7">From ₹89900.00*</p>
-                <div class="btn btn-primary buybtn">Buy</div><br>
-                <a href="#">Learn more ></a>
-                <hr>
+                <a href="https://www.apple.com/in/shop/goto/buy_watch/apple_watch_ultra" class="btn btn-primary buybtn mb-3">Buy</a><br>
+                <a href="https://www.apple.com/in/apple-watch-ultra/">Learn more ></a>
+               </div>
               </div>
-              <div class="text-center container p-2">
-                <img src="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_se__ds9w86dn42c2_small_2x.jpg" class="img-fluid" alt="">
+              <div class=" m-auto  text-center container ">
+                <div class="">
+                <img src="https://www.apple.com/in/apple-watch-ultra/images/compare/compare_se__ds9w86dn42c2_small_2x.jpg" class="img-fluid p-4" alt="">
+  </div>
+  <div class="card-body">
                 <p class="h5">Apple Watch SE</p>
                 <p class="display-7">From ₹29900.00*</p>
-                <div class="btn btn-primary buybtn">Buy</div><br>
-                <a href="#">Learn more ></a>
-                <hr>
+                <a href="https://www.apple.com/in/shop/goto/buy_watch/apple_watch_se" class="btn btn-primary buybtn mb-3">Buy</a><br>
+                <a href="https://www.apple.com/in/apple-watch-se/">Learn more ></a>
+               </div>
               </div>
             </div>
           </div>
 
 
-            <div class=" bg-light pt-5 ">
+            <div class=" bg-light pt-5 container tile ">
                 <div class="  text-center container">
                 <img src="https://www.apple.com/v/apple-watch-ultra/e/images/overview/routers/icon_qt_logo__el1j43p2nygm_large.png" class="img-fluid" alt="">
                 <p class="h4 pt-3">Use AR to See</p>
@@ -219,92 +254,104 @@
            
 
 
-            <div class="bg-light container text-center">
+            <div class="bg-light d-flex flex-column flex-lg-row container text-center tile">
               <div class="d-flex flex-column container pt-5">
                 <p><i class="fa-solid fa-2xl fa-box"></i></p>
-                <p class="h4">Free delivery</p>
-                <p class="display-7">Get free delivery direct to your door.</p>
-                <a href="#">Learn more ></a>
+                <p class="h4">Free delivery and pickup</p>
+                <p class="display-7">Get free delivery direct to your Apple Store.</p>
+                <a href="https://www.apple.com/in/shop/shipping-pickup">Learn more ></a>
               </div>
               <div class="d-flex flex-column container mt-5">
                 <p><i class="fa-solid fa-2xl fa-indian-rupee-sign"></i></p>
                 <p class="h4">Ways to buy</p>
                 <p class="display-7">Buy the way that's right for you.</p>
-                <a href="#">Learn more ></a>
+                <a href="https://www.apple.com/in/shop/goto/ways_to_buy">Learn more ></a>
               </div>
               <div class="d-flex flex-column container pt-5 pb-5">
                 <p><i class="fa-solid fa-2xl fa-light fa-comments"></i></p>
                 <p class="h4">Get help buying</p>
                 <p class="display-7">Have a question? Call a Specialist or chat online.</p>
                 <p class="display-7">Call 000800 040 1966.</p>
-                <a href="#">Learn more ></a>
+                <a href="https://contactretail.apple.com/?pg=COM:apple-watch-ultra&ap=COM&c=in&l=en">Contact us ></a>
               </div>
             </div>
 
-            <div class="container">
+            <div class="container tile">
               <hr>
               <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><i class="fa-brands fa-apple fa-md"></i></li>
-                  <li class="breadcrumb-item " aria-current="page">Watch</li>
+                  <li class="breadcrumb-item"><a href="https://www.apple.com/in/"> <i class="fa-brands fa-apple fa-md text-dark"></i></a></li>
+                  <li class="breadcrumb-item" aria-current="page"><a href="https://www.apple.com/in/watch/" class=" text-dark"> Watch</a></li>
                   <li class="breadcrumb-item " aria-current="page">Apple Watch Ultra</li>
                 </ol>
               </nav>
               <hr>
-              <div class="lists justify-content-between d-flex container">
+              <div class="lists  container">
+                <div class="justify-content-between d-flex show-more" >
                 <p >Apple Wallet</p>
-                <p>+</p>
+                <p class="plus">+</p>
               </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
+                <div class="d-none more">
+                <p class="">
+                  <ul class="">
+                    <li><a href="https://www.apple.com/in/wallet/">Wallet</a></li>
+                    
+                  </ul>
+                </p>
+              </div>
+              </div>
+              
+              <div class="lists  container">
+                <div class="justify-content-between d-flex show-more" >
                 <p >Account</p>
-                <p>+</p>
+                <p class="plus" >+</p>
               </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
+                <div class="d-none more">
+                  <p class="">
+                    <ul class="">
+                      <li><a href="https://appleid.apple.com/">Manage Your Apple ID</a></li>
+                      <li><a href="https://secure.store.apple.com/in/shop/account/home">Apple Store Account</a></li>
+                      <li><a href="https://www.icloud.com/">iCloud.com</a></li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              
+              <div class="lists  container">
+                <div class="justify-content-between d-flex show-more" >
                 <p >Entertainment</p>
-                <p>+</p>
+                <p class="plus">+</p>
               </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
-                <p >Apple Store</p>
-                <p>+</p>
+                <div class="d-none more">
+                  <p class="">
+                    <ul class="">
+                      <li><a href="https://www.apple.com/in/apple-one/">Apple One</a></li>
+                      <li><a href="https://www.apple.com/in/apple-tv-plus/">Apple TV+</a></li>
+                      <li><a href="https://www.apple.com/in/apple-music/">Apple Music</a></li>
+                      <li><a href="https://www.apple.com/in/apple-arcade/">Apple Arcade</a></li>
+                      <li><a href="https://www.apple.com/in/apple-podcasts/">Apple Podcasts</a></li>
+                      <li><a href="https://www.apple.com/in/apple-books/">Apple Books</a></li>
+                      <li><a href="https://www.apple.com/in/app-store/">App Store</a></li>
+
+                    </ul>
+                  </p>
+                </div>
               </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
-                <p >For Business</p>
-                <p>+</p>
-              </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
-                <p >For Education</p>
-                <p>+</p>
-              </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
-                <p >For Healthcare</p>
-                <p>+</p>
-              </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
-                <p >Apple Values</p>
-                <p>+</p>
-              </div>
-              <hr>
-              <div class="lists justify-content-between d-flex container">
-                <p >About Apple</p>
-                <p>+</p>
-              </div>
-              <hr>
-              <p class="text-muted">More ways to shop: <a href="#">Find a retailer</a> near you.</p>
+<div class="footer container">
+              <p class="text-muted mt-5">More ways to shop: <a href="https://locate.apple.com/in/en/">Find a retailer</a> near you.</p>
               <p class="text-muted">Or call 000800 040 1966</p>
               <p>India</p>
-              <hr>
+              
               <p class="text-muted">Clone designed by <a href="https://waglesathwik.onrender.com">Wagle Sathwik</a>.</p>
-              <p class="display-7 text-muted">Privacy Policy | Terms of Use | Sales Policy | Legal | Site Map</p>
+              <p class="display-7 text-muted"><a href="https://www.apple.com/in/legal/privacy/">Privacy Policy</a> |<a href="https://www.apple.com/in/legal/terms/site.html"> Terms of Use</a>
+              
+             |<a href="https://www.apple.com/in/shop/goto/help/sales_refunds"> Sales Policy </a> |<a href="https://www.apple.com/in/legal/"> Legal </a>|<a href="https://www.apple.com/in/sitemap/"> Site Map</a></p>
             </div>
+          </div>
+            <div class="scrolltotop d-none"><i class="fa-solid fa-arrow-up fa-md  bg-info"></i></div>
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <script src="js/bootstrap.js"></script>
+      
+            <script src="js/bootstrap.js"></script>
+            <script src="js/index.js"></script>
 </body>
 </html>
