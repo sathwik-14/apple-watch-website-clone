@@ -1,6 +1,7 @@
 // Variables
 $orange:#f49750;
 $bgcolor:#5c5c5d;
+
 // Debugging
 // *{
 //     border: 1px solid red;
@@ -135,16 +136,91 @@ align-items: center;
     align-items: center;
     ul{
         list-style: none;
+      margin: 0;
+      padding: 0;
     }
     li{
         text-decoration: none;
         margin: 1rem 0;
         a{
-        color: inherit;
+        color: #555;
         &:hover{
             text-decoration: underline;
         }
         }
+    }
+}
+
+.colors{
+    margin: .5rem 0;
+    padding: 0 9rem;
+    span{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius:50% ;
+        background-color: black;
+
+        &:nth-child(1){
+            background-color: #1a2530;
+        }
+        &:nth-child(2){
+            background-color: #ded6d1;
+        }
+        &:nth-child(3){
+            background-color: #e0e0e0;
+        }
+        &:nth-child(4){
+            background-color: #c80e2d;
+        }
+        &:nth-child(5){
+            background-color: #423e3a;
+        }
+        &:nth-child(6){
+            background-color: #d4bda1;
+        }
+       
+    }
+}
+
+.colors2{
+    margin: .5rem 0;
+    padding: 0 10rem;
+    span{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius:50% ;
+        background-color: black;
+
+        &:nth-child(1){
+            background-color: #1a2530;
+        }
+        &:nth-child(2){
+            background-color: #ded6d1;
+        }
+        &:nth-child(3){
+            background-color: #e0e0e0;
+        }
+       
+    }
+}
+
+.colors3{
+    margin: .5rem 0;
+    padding: 0 9rem;
+    span{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius:50% ;
+        background-color: black;
+
+        &:nth-child(1){
+            background-color: #1a2530;
+        }
+  
+       
     }
 }
 
@@ -176,8 +252,7 @@ display: block;
     right: 0;
        margin-right: 2rem;
        &:hover{
-       
-        animation: arrow 2s ease;
+        animation: arrow 1s linear infinite;
     }
     padding: 1rem;
     border-radius: 40%;
@@ -193,14 +268,9 @@ display: block;
 // ANIMATIONS START
 
 @keyframes arrow{
-    25%{
-        transform: translateY(-2rem);
-    }
+
     50%{
-        transform: translateY(0rem);
-    }
-    75%{
-        transform: translateY(-2rem);
+        transform: translateY(-1rem);
     }
     100%{
         transform: translateY(0rem);
@@ -239,14 +309,7 @@ display: block;
   
     .header4{
         overflow: hidden;
-    .sideview{
-        max-height: 60vh;
-        width: 100%;
-        padding-top: 0;
-        margin-top: 0;
-        object-fit: fill;
-        object-position: center;
-    }
+   
 }
 .header5{
     overflow: hidden;
@@ -283,14 +346,7 @@ outline: 0;
   
     .header4{
         overflow: hidden;
-    .sideview{
-        max-height: 60vh;
-        width: 100%;
-        padding-top: 0;
-        margin-top: 0;
-        object-fit: fill;
-        object-position: center;
-    }
+   
 }
 .header5{
     overflow: hidden;
@@ -326,14 +382,7 @@ outline: 0;
   
     .header4{
         overflow: hidden;
-    .sideview{
-        max-height: 60vh;
-        width: 100%;
-        padding-top: 0;
-        margin-top: 0;
-        object-fit: fill;
-        object-position: center;
-    }
+ 
 }
 .header5{
     overflow: hidden;
@@ -391,16 +440,6 @@ outline: 0;
         .h3{
             font-size: 3rem;
         }
-       
-    .sideview{
-     
-        max-height: 90vh;
-        width: 100%;
-        transform: scale(1.1);
-        object-fit: fill;
-        object-position: center;
-        
-    }
 }
 .header6{
     overflow: hidden;

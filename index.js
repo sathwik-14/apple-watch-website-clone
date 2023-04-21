@@ -11,7 +11,7 @@ let plus = document.querySelectorAll(".plus");
 
 
 function run(){
-  for(let i=0;i<4;i++){
+  for(let i=0;i<6;i++){
     plusArray[i].addEventListener("click",function(){
       plus[i].classList.toggle("rotateplus")
       moreArray[i].classList.toggle("d-none")

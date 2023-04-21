@@ -125,16 +125,84 @@ a {
 }
 .lists ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .lists li {
   text-decoration: none;
   margin: 1rem 0;
 }
 .lists li a {
-  color: inherit;
+  color: #555;
 }
 .lists li a:hover {
   text-decoration: underline;
+}
+
+.colors {
+  margin: 0.5rem 0;
+  padding: 0 9rem;
+}
+.colors span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+.colors span:nth-child(1) {
+  background-color: #1a2530;
+}
+.colors span:nth-child(2) {
+  background-color: #ded6d1;
+}
+.colors span:nth-child(3) {
+  background-color: #e0e0e0;
+}
+.colors span:nth-child(4) {
+  background-color: #c80e2d;
+}
+.colors span:nth-child(5) {
+  background-color: #423e3a;
+}
+.colors span:nth-child(6) {
+  background-color: #d4bda1;
+}
+
+.colors2 {
+  margin: 0.5rem 0;
+  padding: 0 10rem;
+}
+.colors2 span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+.colors2 span:nth-child(1) {
+  background-color: #1a2530;
+}
+.colors2 span:nth-child(2) {
+  background-color: #ded6d1;
+}
+.colors2 span:nth-child(3) {
+  background-color: #e0e0e0;
+}
+
+.colors3 {
+  margin: 0.5rem 0;
+  padding: 0 9rem;
+}
+.colors3 span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+.colors3 span:nth-child(1) {
+  background-color: #1a2530;
 }
 
 .header5 {
@@ -171,18 +239,12 @@ a {
   color: white;
 }
 .scrolltotop i:hover {
-  animation: arrow 2s ease;
+  animation: arrow 1s linear infinite;
 }
 
 @keyframes arrow {
-  25% {
-    transform: translateY(-2rem);
-  }
   50% {
-    transform: translateY(0rem);
-  }
-  75% {
-    transform: translateY(-2rem);
+    transform: translateY(-1rem);
   }
   100% {
     transform: translateY(0rem);
@@ -210,16 +272,6 @@ a {
   }
   .header4 {
     overflow: hidden;
-  }
-  .header4 .sideview {
-    max-height: 60vh;
-    width: 100%;
-    padding-top: 0;
-    margin-top: 0;
-    -o-object-fit: fill;
-       object-fit: fill;
-    -o-object-position: center;
-       object-position: center;
   }
   .header5 {
     overflow: hidden;
@@ -250,16 +302,6 @@ a {
   .header4 {
     overflow: hidden;
   }
-  .header4 .sideview {
-    max-height: 60vh;
-    width: 100%;
-    padding-top: 0;
-    margin-top: 0;
-    -o-object-fit: fill;
-       object-fit: fill;
-    -o-object-position: center;
-       object-position: center;
-  }
   .header5 {
     overflow: hidden;
   }
@@ -285,16 +327,6 @@ a {
   }
   .header4 {
     overflow: hidden;
-  }
-  .header4 .sideview {
-    max-height: 60vh;
-    width: 100%;
-    padding-top: 0;
-    margin-top: 0;
-    -o-object-fit: fill;
-       object-fit: fill;
-    -o-object-position: center;
-       object-position: center;
   }
   .header5 {
     overflow: hidden;
@@ -338,15 +370,6 @@ a {
   }
   .header4 .h3 {
     font-size: 3rem;
-  }
-  .header4 .sideview {
-    max-height: 90vh;
-    width: 100%;
-    transform: scale(1.1);
-    -o-object-fit: fill;
-       object-fit: fill;
-    -o-object-position: center;
-       object-position: center;
   }
   .header6 {
     overflow: hidden;
