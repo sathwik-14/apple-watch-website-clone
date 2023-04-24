@@ -4,9 +4,10 @@ $bgcolor:#5c5c5d;
 
 // Debugging
 // *{
-//     border: 1px solid red;
-//     user-select: none;
+//     border: red 1px solid;
 // }
+
+
 
 // GENERAL STYLING START
 
@@ -297,6 +298,12 @@ display: block;
 // STYLING FOR MOBILE AND TAB DISPLAY
 
 @media only screen and (max-width: 420px) {
+.bgs{
+    width: 100%;
+    height: 55vh;
+    object-fit: contain;
+}
+
     .watch1{
         width:60vw ;
         height: 30vh ;
@@ -338,6 +345,11 @@ outline: 0;
 }
 
 @media only screen and (min-width: 420px) and (max-width:700px) {
+    .bgs{
+        width: 100%;
+        height: 45vh;
+        background-attachment: center/contain;
+    }
     .watch1{
         width:55vw ;
         height: 35vh ;
@@ -378,6 +390,13 @@ outline: 0;
 
 
 @media only screen and (min-width: 700px) and (max-width:992px) {
+    .text-contain{
+        width: 85%;
+    }
+    .bgs{
+        width: 100%;
+        height: 35vh;
+    }
     .watch1{
         width:60vw ;
         height: 50vh ;
@@ -423,6 +442,13 @@ outline: 0;
 // STYLING FOR DESKTOP/PC DISPLAY
 
 @media only screen and (min-width: 992px) {
+    .text-contain{
+        width: 55%;
+    }
+    .bgs{
+        width: 100%;
+        height: 60vh;
+    }
     .watch1{
         width:23vw ;
         height: 50vh ;
@@ -473,4 +499,40 @@ outline: 0;
 
 }
 
+@media only screen and (min-width: 1400px) {
+    .text-contain{
+        width: 40%;
+    }
+    .bgs{
+        width: 100%;
+        height: 60vh;
+    }
+}
+
 // END OF STYLING FOR PC 
+
+
+//Styling for why page
+
+.why1{
+    border-radius: 2rem;
+    background-color: #f5f5f7;
+margin:.2rem;
+}
+.why3{
+    border-radius: 2rem;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.first-header{
+    padding: 1rem;
+    background-color:#f5f5f7; 
+    border-radius: 2rem;
+}
+
+.bgs{
+    background: no-repeat url(https://www.apple.com/in/watch/shared/why-watch/images/overview/make-it-yours/customize_bands__fb6yjmzof9ym_large.jpg),#eee 95%;
+ 
+}
+
