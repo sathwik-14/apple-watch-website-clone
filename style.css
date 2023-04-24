@@ -12,6 +12,10 @@ body {
   padding: 0;
 }
 
+.justify {
+  text-align: justify;
+}
+
 .lists {
   border-bottom: rgb(210, 201, 201) 1px solid;
   padding-top: 1rem;
@@ -141,7 +145,7 @@ a {
 
 .colors {
   margin: 0.5rem 0;
-  padding: 0 9rem;
+  padding: 0 5rem;
 }
 .colors span {
   display: block;
@@ -171,7 +175,7 @@ a {
 
 .colors2 {
   margin: 0.5rem 0;
-  padding: 0 10rem;
+  padding: 0 5rem;
 }
 .colors2 span {
   display: block;
@@ -192,7 +196,6 @@ a {
 
 .colors3 {
   margin: 0.5rem 0;
-  padding: 0 9rem;
 }
 .colors3 span {
   display: block;
@@ -260,6 +263,10 @@ a {
   }
 }
 @media only screen and (max-width: 420px) {
+  .watch1 {
+    width: 60vw;
+    height: 30vh;
+  }
   .strap {
     display: inline;
     transform: translateX(-20%) scale(1.2);
@@ -288,6 +295,10 @@ a {
   }
 }
 @media only screen and (min-width: 420px) and (max-width: 700px) {
+  .watch1 {
+    width: 55vw;
+    height: 35vh;
+  }
   .strap {
     display: inline;
     transform: translateX(-30%) scale(1.2);
@@ -314,6 +325,10 @@ a {
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 992px) {
+  .watch1 {
+    width: 60vw;
+    height: 50vh;
+  }
   .strap {
     display: inline;
     transform: translateX(-40%) scale(1.2);
@@ -340,6 +355,10 @@ a {
   }
 }
 @media only screen and (min-width: 992px) {
+  .watch1 {
+    width: 23vw;
+    height: 50vh;
+  }
   .special {
     width: 40vw;
     height: 30vh;

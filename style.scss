@@ -21,6 +21,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.justify{
+    text-align: justify;
+}
+
 .lists{
     border-bottom:rgb(210, 201, 201) 1px solid;
     padding-top: 1rem;
@@ -153,7 +157,7 @@ align-items: center;
 
 .colors{
     margin: .5rem 0;
-    padding: 0 9rem;
+    padding: 0 5rem;
     span{
         display: block;
         width: 10px;
@@ -185,7 +189,7 @@ align-items: center;
 
 .colors2{
     margin: .5rem 0;
-    padding: 0 10rem;
+    padding: 0 5rem;
     span{
         display: block;
         width: 10px;
@@ -208,7 +212,7 @@ align-items: center;
 
 .colors3{
     margin: .5rem 0;
-    padding: 0 9rem;
+    
     span{
         display: block;
         width: 10px;
@@ -293,6 +297,10 @@ display: block;
 // STYLING FOR MOBILE AND TAB DISPLAY
 
 @media only screen and (max-width: 420px) {
+    .watch1{
+        width:60vw ;
+        height: 30vh ;
+    }
     .strap{
         display: inline;
         transform:translateX(-20%)scale(1.2);
@@ -330,6 +338,10 @@ outline: 0;
 }
 
 @media only screen and (min-width: 420px) and (max-width:700px) {
+    .watch1{
+        width:55vw ;
+        height: 35vh ;
+    }
     .strap{
         display: inline;
         transform:translateX(-30%)scale(1.2);
@@ -366,6 +378,10 @@ outline: 0;
 
 
 @media only screen and (min-width: 700px) and (max-width:992px) {
+    .watch1{
+        width:60vw ;
+        height: 50vh ;
+    }
     .strap{
         display: inline;
         transform:translateX(-40%)scale(1.2);
@@ -407,6 +423,10 @@ outline: 0;
 // STYLING FOR DESKTOP/PC DISPLAY
 
 @media only screen and (min-width: 992px) {
+    .watch1{
+        width:23vw ;
+        height: 50vh ;
+    }
     .special{
         width: 40vw;
         height: 30vh;
