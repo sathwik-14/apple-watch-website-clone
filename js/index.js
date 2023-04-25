@@ -7,11 +7,14 @@ let elementsArray = document.querySelectorAll(".tile");
 let moreArray = document.querySelectorAll(".more");
 let plusArray = document.querySelectorAll(".show-more");
 let plus = document.querySelectorAll(".plus");
+let chev=document.querySelectorAll(".fa-chevron-down")
+let chevup=document.querySelectorAll(".fa-chevron-up")
 
+const drop=document.querySelectorAll(".dropdown")
 
 
 function run(){
-  for(let i=0;i<4;i++){
+  for(let i=0;i<6;i++){
     plusArray[i].addEventListener("click",function(){
       plus[i].classList.toggle("rotateplus")
       moreArray[i].classList.toggle("d-none")
@@ -21,8 +24,15 @@ function run(){
     })
   }
 }
-// EVENT LISTENERS  START
 
+function showdrop(){
+  chev[0].classList.toggle("d-none")
+  chevup[0].classList.toggle("d-none")
+  drop[0].classList.toggle("d-none")
+}
+// EVENT LISTENERS  START
+chev[0].addEventListener("click",showdrop)
+chevup[0].addEventListener("click",showdrop)
 window.addEventListener('scroll', fadeIn ); 
 oBtn.addEventListener("click",opennav);
 cBtn.addEventListener("click",closenav);
